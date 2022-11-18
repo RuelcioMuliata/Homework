@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #0A0C10;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(216, 115, 0);
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.329);
+    color: white;
+    
+    
+}
+
+div#img {
+    background-color: wheat;
+    width: 155vh;
+    padding: 0;
+}
+
+p {
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    width: 85vh;
+
+}
+
+h2 {
+    text-align: center;
+    width: 135vh;
+    padding: 20px;
+}
+
+a {
+    padding: 0 10px;
+    margin: 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(109, 109, 109);
+    font-weight: bold;
+    position: relative;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+a::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(255, 136, 0);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+a:hover::after {
+    width: 100%;
+}
+
+a:hover {
+    color: white;
+}
+
+p {
+    text-align: center;
+}
+
+div > ul > li {
+    margin: auto;
+   
+    width: 75vh;
+    padding: 7px;
+    font-size: 15px;
+    
+}
+
+div#seila {
+    padding: 30px;
+}
+
+article {
+    text-align: left;
+    padding-top: 20px;
+    background-color: #272B33;
+    border-radius: 10px;
+    width: 75vh;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    display: flex;
+    margin: auto;
+    font-size: 15px;
+    
+}
+
+footer {
+    ;
+    color: white;
+    text-align: center;
+    font-size: 0.6em;
+    padding: 3px;
+    font-family: var(--fonte-padrao);
+
+}
+
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+
+}
+    
